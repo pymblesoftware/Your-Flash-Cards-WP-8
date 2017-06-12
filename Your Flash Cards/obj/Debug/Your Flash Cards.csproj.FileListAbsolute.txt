@@ -1,0 +1,25 @@
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\ApplicationIcon.png
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\Background.png
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\Your Flash Cards.dll
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\Your Flash Cards.pdb
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\AppManifest.xaml
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\Bin\Debug\Your_Flash_Cards.xap
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\App.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\ChooseSetPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\ContentTypePage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\CreateBackOfCardPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\CreateFrontOfCardPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\Createpage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\CreateQuestionsPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\MainPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\SharePage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TestFrontPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TestPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TestQuestionPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TrainBackPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TrainFrontPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\TrainingPage.g.cs
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\Your Flash Cards.g.resources
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\Your Flash Cards.dll
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\Your Flash Cards.pdb
+C:\Users\Regan\documents\visual studio 2012\Projects\Your Flash Cards\Your Flash Cards\obj\Debug\XapCacheFile.xml

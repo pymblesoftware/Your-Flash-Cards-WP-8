@@ -1,0 +1,39 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Your_Flash_Cards.CreateBackOfCardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Your Flash Cards" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Back of Card" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        	<TextBox x:Name="BackCardTextBox" HorizontalAlignment="Left" Height="250" Margin="10,80,-10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" AcceptsReturn="True"/>
+        	<Button x:Name="NextButton" HorizontalAlignment="Left" Margin="333,475,0,0" VerticalAlignment="Top" Height="118" Width="123" Click="NextButton_Click" BorderBrush="{StaticResource TransparentBrush}">
+        		<Image Height="85" Source="Right-facing-Arrow-icon-1a.png" Stretch="Fill" Width="77"/>
+        	</Button>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

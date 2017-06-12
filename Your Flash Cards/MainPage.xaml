@@ -1,0 +1,61 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Your_Flash_Cards.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Your Flash Cards" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Main Menu" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        	<Button x:Name="CreateButton" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="159" Width="192" Click="CreateButton_Click">
+        		<Image x:Name="DesignImage" Height="110" Source="create-1a.png" Stretch="Fill" Width="120"/>
+        	</Button>
+        	<TextBlock HorizontalAlignment="Left" Margin="26,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+        		<Run Text="Design and Content"/>
+        		<LineBreak/>
+        		<Run/>
+        	</TextBlock>
+        	<Button x:Name="ShareButton" HorizontalAlignment="Left" Margin="10,227,0,0" VerticalAlignment="Top" Height="155" Width="192" Click="ShareButton_Click">
+        		<Image Height="110" Source="giving-hands.png" Stretch="Fill" Width="120"/>
+        	</Button>
+        	<Button x:Name="TrainingButton" HorizontalAlignment="Left" Margin="239,10,0,0" VerticalAlignment="Top" Height="159" Width="192" Click="TrainingButton_Click">
+        		<Image Height="110" Source="training-1a.png" Stretch="Fill" Width="120"/>
+        	</Button>
+        	<TextBlock HorizontalAlignment="Left" Margin="76,387,0,0" TextWrapping="Wrap" Text="Share" VerticalAlignment="Top"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="309,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27">
+        		<Run Text="Training"/>
+        		<LineBreak/>
+        		<Run/>
+        	</TextBlock>
+        	<Button x:Name="FeedbackButton" HorizontalAlignment="Left" Margin="239,234,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="192">
+        		<Image Height="110" Source="critisism-2a.png" Stretch="Fill" Width="120"/>
+        	</Button>
+        	<TextBlock HorizontalAlignment="Left" Margin="252,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27">
+        		<Run Text="Developer Feedback"/>
+        		<LineBreak/>
+        		<Run/>
+        	</TextBlock></Grid>
+    </Grid>
+ 
+</phone:PhoneApplicationPage>
